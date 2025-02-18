@@ -29,7 +29,7 @@
 
 
 #ifndef ARTNET_PORT_COUNT
-#define ARTNET_PORT_COUNT 4
+#define ARTNET_PORT_COUNT 255
 #endif  // ARTNET_PORT_COUNT
 
 namespace ola {

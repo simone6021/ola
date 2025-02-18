@@ -68,7 +68,7 @@ const char ArtNetDevice::K_SHORT_NAME_KEY[] = "short_name";
 const char ArtNetDevice::K_SUBNET_KEY[] = "subnet";
 const unsigned int ArtNetDevice::K_ARTNET_NET = 0;
 const unsigned int ArtNetDevice::K_ARTNET_SUBNET = 0;
-const unsigned int ArtNetDevice::K_DEFAULT_OUTPUT_PORT_COUNT = 4;
+const unsigned int ArtNetDevice::K_DEFAULT_OUTPUT_PORT_COUNT = 255;
 
 ArtNetDevice::ArtNetDevice(AbstractPlugin *owner,
                            ola::Preferences *preferences,

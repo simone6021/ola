@@ -36,7 +36,7 @@ using std::string;
 using std::vector;
 
 namespace {
-static const uint8_t ARTNET_UNIVERSE_COUNT = 16;
+static const uint8_t ARTNET_UNIVERSE_COUNT = 255;
 };  // namespace
 
 void ArtNetInputPort::PostSetUniverse(Universe *old_universe,
